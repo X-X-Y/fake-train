@@ -5,27 +5,52 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "stdlint": "lint-staged"
+    "stdlint": "lint-staged",
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.23.3",
+    "@babel/plugin-transform-runtime": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "@babel/runtime-corejs3": "^7.23.9",
     "@commitlint/cli": "^18.6.0",
     "@commitlint/config-conventional": "^18.6.0",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "autoprefixer": "^10.4.17",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^6.9.1",
+    "css-minimizer-webpack-plugin": "^6.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.33.2",
+    "html-webpack-plugin": "^5.6.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
-    "prettier": "^3.2.4"
+    "mini-css-extract-plugin": "^2.7.7",
+    "postcss-loader": "^8.0.0",
+    "prettier": "^3.2.4",
+    "sass-loader": "^14.0.0",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   },
   "lint-staged": {
-    "src/*.(tsx|js|ts|jsx|md|json|scss|cjs)": [
-      "prettier --write --color --cache --quiet",
+    "src/*.(tsx|js|ts|jsx|md|json|sass|cjs)": [
+      "prettier --write --color",
       "git add"
     ],
     "src/*.(tsx|js|ts|jsx)": [
-      "eslint --fix --color --cache --quiet",
+      "eslint --fix --color",
       "git add"
     ]
   }

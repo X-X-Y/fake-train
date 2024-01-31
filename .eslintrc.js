@@ -13,6 +13,12 @@ module.exports = {
     'react',
     '@typescript-eslint',
   ],
+  parserOptions: {
+    "ecmaVersion": 5,
+    "sourceType": "module",
+    "ecmaFeatures": true,
+    "project": './tsconfig.json',
+  },
   rules: {
     'no-undef': 'off', // 允许使用未声明的变量
     'no-shadow': 'off', // 允许变量覆盖声明
@@ -26,8 +32,12 @@ module.exports = {
     'no-multiple-empty-lines': ['error', {
       max: 2
     }], // 不允许有多行空行
-    'prettier/prettier': 'error', // Prettier 应用到 Eslint
     '@typescript-eslint/require-await': 'error', // 禁止没有await表达式的异步函数
     'no-unsafe-optional-chaining': 'error', // 禁止在不允许使用“undefined”值的情况下使用可选链接
+  },
+  settings: {
+    react: {
+      version: 'detect'
+    }
   }
 }

@@ -1,0 +1,23 @@
+{
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "declaration": true,
+    "outDir": "./dist",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "baseUrl": ".",
+    "lib": ["ES5", "ES2015.Generator", "dom"]
+  }
+}
