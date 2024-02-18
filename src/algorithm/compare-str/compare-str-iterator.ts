@@ -53,6 +53,7 @@ function run() {
   const str2 = '1-22-52-21-0-53'
   const str3 = '1-22-52-21-0-53-9'
   
+  console.log('-----------测试版本号字符串比较函数compare-----------')
   console.log(compare(str1, str2))  // -1
   console.log(compare(str2, str3))  // -1
   console.log(compare(str3, str1))  // 1
