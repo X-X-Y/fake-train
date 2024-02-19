@@ -3,12 +3,14 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
+const {CleanWebpackPlugin} = require('clean-webpack-plugin')
+const {FileListPlugin} = require('./plugins/file-list-plugin')
 
 module.exports = {
   entry: './src/index.ts',
   mode: 'production',
   output: {
-    filename: '[name]' + '.js',
+    filename: '[name].[contenthash:8].js',
     path: path.resolve(__dirname, './dist'),
   },
   resolve: {
@@ -82,7 +84,7 @@ module.exports = {
         type: 'asset',
         parser: {
           dataUrlCondition: {
-            maxSize: 2 * 1024
+            maxSize: 5 * 1024
           }
         }
       },
@@ -91,7 +93,7 @@ module.exports = {
         type: 'asset',
         parser: {
           dataUrlCondition: {
-            maxSize: 2 * 1024
+            maxSize: 5 * 1024
           },
           generator: {
             filename: 'font/[name].[contenthash:8].[ext]',
@@ -108,7 +110,9 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       title: 'fake-train'
-    })
+    }),
+    new CleanWebpackPlugin(),
+    new FileListPlugin({outputFile: 'assets.md'})
   ],
   optimization: {
     minimizer: [
@@ -121,7 +125,17 @@ module.exports = {
         vendor: {
           test: /[\\/]node_modules[\\/]/,
           name: 'vendors',
-          chunks: 'all'
+          chunks: 'all',
+          priority: 1,
+          minSize: 0,
+          minChunks: 1
+        },
+        common: {
+          name: 'common',
+          chunks: 'all',
+          priority: 0,
+          minSize: 0,
+          minChunks: 2
         }
       }
     }
@@ -131,3 +145,4 @@ module.exports = {
     maxAssetSize: 1000 * 1024
   }
 }
+

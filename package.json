@@ -30,6 +30,7 @@
     "babel-loader": "^9.1.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.9.1",
     "css-minimizer-webpack-plugin": "^6.0.0",
     "eslint": "^8.56.0",
@@ -51,11 +52,11 @@
     "webpack-dev-server": "^4.15.1"
   },
   "lint-staged": {
-    "src/*.(tsx|js|ts|jsx|md|json|sass|cjs)": [
+    "(src|plugin)/*.(tsx|js|ts|jsx|md|json|sass|cjs)": [
       "prettier --write --color",
       "git add"
     ],
-    "src/*.(tsx|js|ts|jsx)": [
+    "(src|plugin)/*.(tsx|js|ts|jsx)": [
       "eslint --fix --color",
       "git add"
     ]
