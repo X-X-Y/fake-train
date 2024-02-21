@@ -1,5 +1,5 @@
 /**
- * @description 27. 移除元素，https://leetcode.cn/problems/remove-element/description/
+ * @description 27. 移除元素，easy，https://leetcode.cn/problems/remove-element/description/
  * @param nums 
  * @param val 
  * @returns 

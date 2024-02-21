@@ -1,5 +1,5 @@
 /**
- * @description 5. 最长回文子串，https://leetcode.cn/problems/longest-palindromic-substring/description/
+ * @description 5. 最长回文子串，medium，https://leetcode.cn/problems/longest-palindromic-substring/description/
  * @param s 
  * @returns 
  */

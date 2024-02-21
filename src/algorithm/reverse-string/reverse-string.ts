@@ -1,5 +1,5 @@
 /**
- * @description 344. 反转字符串，https://leetcode.cn/problems/reverse-string/description/
+ * @description 344. 反转字符串，easy，https://leetcode.cn/problems/reverse-string/description/
  * @param s 
  */
 function reverseString(s: string[]): void {

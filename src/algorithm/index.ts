@@ -5,6 +5,7 @@ import removeElement from '@/algorithm/remove-element/remove-element'
 import moveZeroes from '@/algorithm/move-zeroes/move-zeroes'
 import reverseString from '@/algorithm/reverse-string/reverse-string'
 import longestPalindrome from '@/algorithm/longest-palindromic-substring/longest-palindrome'
+import minWindow from '@/algorithm/minimum-window-substring/min-window'
 
 export {
   compareStrIterator,
@@ -13,5 +14,6 @@ export {
   removeElement,
   moveZeroes,
   reverseString,
-  longestPalindrome
+  longestPalindrome,
+  minWindow
 }

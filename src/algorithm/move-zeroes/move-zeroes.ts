@@ -1,5 +1,5 @@
 /**
- * @description 283. 移动零，https://leetcode.cn/problems/move-zeroes/description/
+ * @description 283. 移动零，easy，https://leetcode.cn/problems/move-zeroes/description/
  * @param nums 
  */
 function moveZeroes(nums: number[]): void {

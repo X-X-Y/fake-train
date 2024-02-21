@@ -1,5 +1,5 @@
 /**
- * @description 对nums使用二分查找target位置，https://leetcode.cn/problems/binary-search/
+ * @description 对nums使用二分查找target位置，easy，https://leetcode.cn/problems/binary-search/
  * @param nums 有序排列的数字列表
  * @param target 目标查找数字
  * @returns 目标数字下标/-1
