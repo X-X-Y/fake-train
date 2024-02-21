@@ -7,6 +7,7 @@ import {
 	reverseString,
 	longestPalindrome,
 } from '@/algorithm'
+import { deepCopy, myCall, myApply, myBind } from '@/scene'
 
 compareStrIterator()
 binarySearch()
@@ -15,3 +16,8 @@ removeElement()
 moveZeroes()
 reverseString()
 longestPalindrome()
+
+deepCopy()
+myCall()
+myApply()
+myBind()
