@@ -7,6 +7,9 @@ import {
 	reverseString,
 	longestPalindrome,
 	minWindow,
+	checkInclusion,
+	findAnagrams,
+	lengthOfLongestSubstring,
 } from '@/algorithm'
 import { deepCopy, myCall, myApply, myBind } from '@/scene'
 
@@ -21,6 +24,9 @@ moveZeroes()
 reverseString()
 longestPalindrome()
 minWindow()
+checkInclusion()
+findAnagrams()
+lengthOfLongestSubstring()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
