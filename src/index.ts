@@ -20,6 +20,8 @@ import {
 	memoFunc,
 	curryFunc,
 	flatObj,
+	exampleReflectProxy,
+	exampleReflectOwnKeys,
 } from '@/scene'
 
 console.log(
@@ -48,3 +50,5 @@ flatArray()
 flatObj()
 memoFunc()
 curryFunc()
+exampleReflectProxy()
+exampleReflectOwnKeys()

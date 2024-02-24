@@ -9,6 +9,8 @@ import memoFunc from '@/scene/memo/memo-func'
 import curryFunc from '@/scene/curry/curry-func'
 import debounse from '@/scene/debounse/debounse'
 import throttle from '@/scene/throttle/throttle'
+import exampleReflectProxy from '@/scene/Reflact/Reflect-Proxy-get'
+import exampleReflectOwnKeys from '@/scene/Reflact/Reflect-OwnPropertyKeys-ownKeys'
 
 export {
   deepCopy,
@@ -21,5 +23,7 @@ export {
   memoFunc,
   curryFunc,
   debounse,
-  throttle
+  throttle,
+  exampleReflectProxy,
+  exampleReflectOwnKeys
 }
