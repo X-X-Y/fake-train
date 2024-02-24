@@ -11,7 +11,16 @@ import {
 	findAnagrams,
 	lengthOfLongestSubstring,
 } from '@/algorithm'
-import { deepCopy, myCall, myApply, myBind } from '@/scene'
+import {
+	deepCopy,
+	myCall,
+	myApply,
+	myBind,
+	flatArray,
+	memoFunc,
+	curryFunc,
+	flatObj,
+} from '@/scene'
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ algorithm ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
@@ -35,3 +44,7 @@ deepCopy()
 myCall()
 myApply()
 myBind()
+flatArray()
+flatObj()
+memoFunc()
+curryFunc()
