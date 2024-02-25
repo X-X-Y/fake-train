@@ -1,5 +1,8 @@
 import compareStrIterator from '@/algorithm/compare-str/compare-str-iterator'
 import binarySearch from '@/algorithm/binary-search/binary-search'
+import searchRange from '@/algorithm/find-first-and-last-position-of-element-in-sorted-array/search-range'
+import shipWithinDays from '@/algorithm/capacity-to-ship-packages-within-d-days/ship-within-days'
+import minEatingSpeed from '@/algorithm/koko-eating-bananas/min-eating-speed'
 import removeDuplicates from '@/algorithm/remove-duplicates-from-sorted-array/remove-duplicates'
 import removeElement from '@/algorithm/remove-element/remove-element'
 import moveZeroes from '@/algorithm/move-zeroes/move-zeroes'
@@ -21,5 +24,8 @@ export {
   minWindow,
   checkInclusion,
   findAnagrams,
-  lengthOfLongestSubstring
+  lengthOfLongestSubstring,
+  searchRange,
+  shipWithinDays,
+  minEatingSpeed
 }

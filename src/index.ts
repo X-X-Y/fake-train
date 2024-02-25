@@ -1,6 +1,9 @@
 import {
 	compareStrIterator,
 	binarySearch,
+	searchRange,
+	shipWithinDays,
+	minEatingSpeed,
 	removeDuplicates,
 	removeElement,
 	moveZeroes,
@@ -29,6 +32,9 @@ console.log(
 )
 compareStrIterator()
 binarySearch()
+searchRange()
+shipWithinDays()
+minEatingSpeed()
 removeDuplicates()
 removeElement()
 moveZeroes()
