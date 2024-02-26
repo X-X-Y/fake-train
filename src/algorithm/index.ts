@@ -12,6 +12,7 @@ import minWindow from '@/algorithm/minimum-window-substring/min-window'
 import checkInclusion from '@/algorithm/permutation-in-string/check-inclusion'
 import findAnagrams from '@/algorithm/find-all-anagrams-in-a-string/find-anagrams'
 import lengthOfLongestSubstring from '@/algorithm/longest-substring-without-repeating-characters/length-of-longest-substring'
+import advantageCount from '@/algorithm/advantage-shuffle/advantage-count'
 
 export {
   compareStrIterator,
@@ -27,5 +28,6 @@ export {
   lengthOfLongestSubstring,
   searchRange,
   shipWithinDays,
-  minEatingSpeed
+  minEatingSpeed,
+  advantageCount
 }

@@ -13,6 +13,7 @@ import {
 	checkInclusion,
 	findAnagrams,
 	lengthOfLongestSubstring,
+	advantageCount,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -44,6 +45,7 @@ minWindow()
 checkInclusion()
 findAnagrams()
 lengthOfLongestSubstring()
+advantageCount()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
