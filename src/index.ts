@@ -14,6 +14,7 @@ import {
 	findAnagrams,
 	lengthOfLongestSubstring,
 	advantageCount,
+	mergeTwoLists,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -46,6 +47,7 @@ checkInclusion()
 findAnagrams()
 lengthOfLongestSubstring()
 advantageCount()
+mergeTwoLists()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
