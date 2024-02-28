@@ -52,11 +52,11 @@
     "webpack-dev-server": "^4.15.1"
   },
   "lint-staged": {
-    "(src|plugin)/*.(tsx|js|ts|jsx|md|json|sass|cjs)": [
+    "(src|plugin)/**/*.(tsx|js|ts|jsx|md|json|sass|cjs)": [
       "prettier --write --color",
       "git add"
     ],
-    "(src|plugin)/*.(tsx|js|ts|jsx)": [
+    "(src|plugin)/**/*.(tsx|js|ts|jsx)": [
       "eslint --fix --color",
       "git add"
     ]

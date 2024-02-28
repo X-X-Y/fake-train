@@ -14,22 +14,26 @@ import findAnagrams from '@/algorithm/find-all-anagrams-in-a-string/find-anagram
 import lengthOfLongestSubstring from '@/algorithm/longest-substring-without-repeating-characters/length-of-longest-substring'
 import advantageCount from '@/algorithm/advantage-shuffle/advantage-count'
 import mergeTwoLists from '@/algorithm/merge-two-sorted-lists/merge-two-lists'
+import partition from '@/algorithm/partition-list/partition'
+import removeNthFromEnd from '@/algorithm/remove-nth-node-from-end-of-list/remove-nth-from-end'
 
 export {
-  compareStrIterator,
-  binarySearch,
-  removeDuplicates,
-  removeElement,
-  moveZeroes,
-  reverseString,
-  longestPalindrome,
-  minWindow,
-  checkInclusion,
-  findAnagrams,
-  lengthOfLongestSubstring,
-  searchRange,
-  shipWithinDays,
-  minEatingSpeed,
-  advantageCount,
-  mergeTwoLists
+	compareStrIterator,
+	binarySearch,
+	removeDuplicates,
+	removeElement,
+	moveZeroes,
+	reverseString,
+	longestPalindrome,
+	minWindow,
+	checkInclusion,
+	findAnagrams,
+	lengthOfLongestSubstring,
+	searchRange,
+	shipWithinDays,
+	minEatingSpeed,
+	advantageCount,
+	mergeTwoLists,
+	partition,
+	removeNthFromEnd,
 }
