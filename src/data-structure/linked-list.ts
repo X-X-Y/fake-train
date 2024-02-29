@@ -2,30 +2,44 @@
  * @description 单链表节点类定义
  */
 class ListNode {
-  public val: number
-  public next: ListNode | null
+	public val: number
+	public next: ListNode | null
 
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = (val===undefined ? 0 : val)
-    this.next = (next===undefined ? null : next)
-  }
+	constructor(val?: number, next?: ListNode | null) {
+		this.val = val === undefined ? 0 : val
+		this.next = next === undefined ? null : next
+	}
 }
 
 /**
  * @description 传入值数组，创建链表
  * @param arr 待创建链表各节点值数组
+ * @param cid 可选，值表示环形链表起始位置，从1开始，无值代表非环形
  * @returns 表头节点
  */
-function createLinkedList(arr: number[]): ListNode {
-  const dummy = new ListNode()
-  let p = dummy
+function createLinkedList(
+	arr: number[],
+	cid?: number,
+	joinHead?: ListNode,
+): ListNode {
+	const dummy = new ListNode()
+	let p = dummy
+	const _cid = cid - 1
+	let circleNode = null
 
-  arr.forEach(item => {
-    p.next = new ListNode(item)
-    p = p.next
-  })
+	arr.forEach((item, idx) => {
+		p.next = new ListNode(item)
+		if (idx === _cid) circleNode = p.next
+		p = p.next
+	})
 
-  return dummy.next
+	if (circleNode) {
+		p.next = circleNode
+	} else if (joinHead) {
+		p.next = joinHead
+	}
+
+	return dummy.next
 }
 
 /**
@@ -34,21 +48,17 @@ function createLinkedList(arr: number[]): ListNode {
  * @returns 输入链表值组成的字符串
  */
 function printLinkedList(p: ListNode): string {
-  let res = ''
-  let curNode = p
+	let res = ''
+	let curNode = p
 
-  while(curNode) {
-    res += curNode.val + ' --> '
-    curNode = curNode.next
-  }
+	while (curNode) {
+		res += curNode.val + ' --> '
+		curNode = curNode.next
+	}
 
-  res += 'null'
+	res += 'null'
 
-  return res
+	return res
 }
 
-export {
-  ListNode,
-  createLinkedList,
-  printLinkedList
-}
+export { ListNode, createLinkedList, printLinkedList }

@@ -16,6 +16,9 @@ import advantageCount from '@/algorithm/advantage-shuffle/advantage-count'
 import mergeTwoLists from '@/algorithm/merge-two-sorted-lists/merge-two-lists'
 import partition from '@/algorithm/partition-list/partition'
 import removeNthFromEnd from '@/algorithm/remove-nth-node-from-end-of-list/remove-nth-from-end'
+import middleNode from '@/algorithm/middle-of-the-linked-list/middle-node'
+import detectCycle from '@/algorithm/linked-list-cycle-ii/detect-cycle'
+import getIntersectionNode from '@/algorithm/intersection-of-two-linked-lists/get-intersection-node'
 
 export {
 	compareStrIterator,
@@ -36,4 +39,7 @@ export {
 	mergeTwoLists,
 	partition,
 	removeNthFromEnd,
+	middleNode,
+	detectCycle,
+	getIntersectionNode,
 }

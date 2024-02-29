@@ -17,6 +17,9 @@ import {
 	mergeTwoLists,
 	partition,
 	removeNthFromEnd,
+	middleNode,
+	detectCycle,
+	getIntersectionNode,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -52,6 +55,9 @@ advantageCount()
 mergeTwoLists()
 partition()
 removeNthFromEnd()
+middleNode()
+detectCycle()
+getIntersectionNode()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
