@@ -20,6 +20,10 @@ import {
 	middleNode,
 	detectCycle,
 	getIntersectionNode,
+	reverseListIteration,
+	reverseListRecursion,
+	reverseBetweenIteration,
+	reverseBetweenRecursion,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -58,6 +62,10 @@ removeNthFromEnd()
 middleNode()
 detectCycle()
 getIntersectionNode()
+reverseListIteration()
+reverseListRecursion()
+reverseBetweenIteration()
+reverseBetweenRecursion()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
