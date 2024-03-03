@@ -1,29 +1,29 @@
 import deepCopy from '@/scene/deep-copy/deep-copy'
 import EventEmitter from '@/scene/event-emitter/event-emitter'
-import myCall from '@/scene/call-apply-bind/my-call'
-import myApply from '@/scene/call-apply-bind/my-apply'
-import myBind from '@/scene/call-apply-bind/my-bind'
-import flatArray from '@/scene/flat/flat-array'
-import flatObj from '@/scene/flat/flat-obj'
+import { myApply, myBind, myCall } from './call-apply-bind'
+import { flatArray, flatObj } from './flat'
 import memoFunc from '@/scene/memo/memo-func'
 import curryFunc from '@/scene/curry/curry-func'
 import debounse from '@/scene/debounse/debounse'
 import throttle from '@/scene/throttle/throttle'
-import exampleReflectProxy from '@/scene/Reflact/Reflect-Proxy-get'
-import exampleReflectOwnKeys from '@/scene/Reflact/Reflect-OwnPropertyKeys-ownKeys'
+import { exampleReflectProxy, exampleReflectOwnKeys } from './Reflact'
+import myNew from '@/scene/New/my-new'
+import myInstanceOf from '@/scene/instanceof/my-instanceOf'
 
 export {
-  deepCopy,
-  EventEmitter,
-  myCall,
-  myApply,
-  myBind,
-  flatArray,
-  flatObj,
-  memoFunc,
-  curryFunc,
-  debounse,
-  throttle,
-  exampleReflectProxy,
-  exampleReflectOwnKeys
+	deepCopy,
+	EventEmitter,
+	myCall,
+	myApply,
+	myBind,
+	flatArray,
+	flatObj,
+	memoFunc,
+	curryFunc,
+	debounse,
+	throttle,
+	exampleReflectProxy,
+	exampleReflectOwnKeys,
+	myNew,
+	myInstanceOf,
 }

@@ -36,6 +36,8 @@ import {
 	flatObj,
 	exampleReflectProxy,
 	exampleReflectOwnKeys,
+	myNew,
+	myInstanceOf,
 } from '@/scene'
 
 console.log(
@@ -80,3 +82,5 @@ memoFunc()
 curryFunc()
 exampleReflectProxy()
 exampleReflectOwnKeys()
+myNew()
+myInstanceOf()
