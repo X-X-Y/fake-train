@@ -27,6 +27,8 @@ import {
 	reverseBetweenIteration,
 	reverseBetweenRecursion,
 } from '@/algorithm/reverse-linked-list-ii'
+import reverseKGroup from '@/algorithm/reverse-nodes-in-k-group/reverse-k-group'
+import isPalindrome from '@/algorithm/palindrome-linked-list/is-palindrome'
 
 export {
 	compareStrIterator,
@@ -54,4 +56,6 @@ export {
 	reverseListRecursion,
 	reverseBetweenIteration,
 	reverseBetweenRecursion,
+	reverseKGroup,
+	isPalindrome,
 }

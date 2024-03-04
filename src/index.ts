@@ -24,6 +24,8 @@ import {
 	reverseListRecursion,
 	reverseBetweenIteration,
 	reverseBetweenRecursion,
+	reverseKGroup,
+	isPalindrome,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -68,6 +70,8 @@ reverseListIteration()
 reverseListRecursion()
 reverseBetweenIteration()
 reverseBetweenRecursion()
+reverseKGroup()
+isPalindrome()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',

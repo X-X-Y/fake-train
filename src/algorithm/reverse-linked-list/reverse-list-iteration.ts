@@ -9,7 +9,7 @@ import {
  * @param head
  * @returns
  */
-function reverseListIteration(head: ListNode | null): ListNode | null {
+export function reverseListIteration(head: ListNode | null): ListNode | null {
 	let pre = null
 	let cur = head
 
