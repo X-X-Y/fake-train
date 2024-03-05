@@ -29,6 +29,8 @@ import {
 } from '@/algorithm/reverse-linked-list-ii'
 import reverseKGroup from '@/algorithm/reverse-nodes-in-k-group/reverse-k-group'
 import isPalindrome from '@/algorithm/palindrome-linked-list/is-palindrome'
+import isValid from '@/algorithm/valid-parentheses/is-valid'
+import minAddToMakeValid from '@/algorithm/minimum-add-to-make-parentheses-valid/min-add-to-make-valid'
 
 export {
 	compareStrIterator,
@@ -58,4 +60,6 @@ export {
 	reverseBetweenRecursion,
 	reverseKGroup,
 	isPalindrome,
+	isValid,
+	minAddToMakeValid,
 }

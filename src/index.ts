@@ -26,6 +26,8 @@ import {
 	reverseBetweenRecursion,
 	reverseKGroup,
 	isPalindrome,
+	isValid,
+	minAddToMakeValid,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -72,6 +74,8 @@ reverseBetweenIteration()
 reverseBetweenRecursion()
 reverseKGroup()
 isPalindrome()
+isValid()
+minAddToMakeValid()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
