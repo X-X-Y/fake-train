@@ -28,6 +28,8 @@ import {
 	isPalindrome,
 	isValid,
 	minAddToMakeValid,
+	minInsertions,
+	nextGreaterElement,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -76,6 +78,8 @@ reverseKGroup()
 isPalindrome()
 isValid()
 minAddToMakeValid()
+minInsertions()
+nextGreaterElement()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',

@@ -31,6 +31,8 @@ import reverseKGroup from '@/algorithm/reverse-nodes-in-k-group/reverse-k-group'
 import isPalindrome from '@/algorithm/palindrome-linked-list/is-palindrome'
 import isValid from '@/algorithm/valid-parentheses/is-valid'
 import minAddToMakeValid from '@/algorithm/minimum-add-to-make-parentheses-valid/min-add-to-make-valid'
+import minInsertions from '@/algorithm/minimum-insertions-to-balance-a-parentheses-string/min-insertions'
+import nextGreaterElement from '@/algorithm/next-greater-element-i/next-greater-element'
 
 export {
 	compareStrIterator,
@@ -62,4 +64,6 @@ export {
 	isPalindrome,
 	isValid,
 	minAddToMakeValid,
+	minInsertions,
+	nextGreaterElement,
 }
