@@ -30,6 +30,8 @@ import {
 	minAddToMakeValid,
 	minInsertions,
 	nextGreaterElement,
+	dailyTemperatures,
+	nextGreaterElements,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -80,6 +82,8 @@ isValid()
 minAddToMakeValid()
 minInsertions()
 nextGreaterElement()
+dailyTemperatures()
+nextGreaterElements()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
