@@ -32,6 +32,7 @@ import {
 	nextGreaterElement,
 	dailyTemperatures,
 	nextGreaterElements,
+	maxSlidingWindow,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -84,6 +85,7 @@ minInsertions()
 nextGreaterElement()
 dailyTemperatures()
 nextGreaterElements()
+maxSlidingWindow()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',

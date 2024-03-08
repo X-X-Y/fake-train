@@ -35,6 +35,7 @@ import minInsertions from '@/algorithm/minimum-insertions-to-balance-a-parenthes
 import nextGreaterElement from '@/algorithm/next-greater-element-i/next-greater-element'
 import dailyTemperatures from '@/algorithm/daily-temperatures/daily-temperatures'
 import nextGreaterElements from '@/algorithm/next-greater-element-ii/next-greater-elements'
+import maxSlidingWindow from '@/algorithm/sliding-window-maximum/max-sliding-window'
 
 export {
 	compareStrIterator,
@@ -70,4 +71,5 @@ export {
 	nextGreaterElement,
 	dailyTemperatures,
 	nextGreaterElements,
+	maxSlidingWindow,
 }
