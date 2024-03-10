@@ -33,6 +33,7 @@ import {
 	dailyTemperatures,
 	nextGreaterElements,
 	maxSlidingWindow,
+	removeDuplicateLetters,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -86,6 +87,7 @@ nextGreaterElement()
 dailyTemperatures()
 nextGreaterElements()
 maxSlidingWindow()
+removeDuplicateLetters()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
