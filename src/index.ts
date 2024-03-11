@@ -34,6 +34,8 @@ import {
 	nextGreaterElements,
 	maxSlidingWindow,
 	removeDuplicateLetters,
+	maxDepthBack,
+	maxDepthDp,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -88,6 +90,8 @@ dailyTemperatures()
 nextGreaterElements()
 maxSlidingWindow()
 removeDuplicateLetters()
+maxDepthBack()
+maxDepthDp()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
