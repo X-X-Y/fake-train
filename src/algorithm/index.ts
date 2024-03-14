@@ -41,6 +41,8 @@ import {
 	maxDepthBack,
 	maxDepthDp,
 } from '@/algorithm/maximum-depth-of-binary-tree'
+import { invertTreeBack, invertTreeDp } from '@/algorithm/invert-binary-tree'
+import connect from '@/algorithm/populating-next-right-pointers-in-each-node/connect'
 
 export {
 	compareStrIterator,
@@ -80,4 +82,7 @@ export {
 	removeDuplicateLetters,
 	maxDepthBack,
 	maxDepthDp,
+	invertTreeBack,
+	invertTreeDp,
+	connect,
 }

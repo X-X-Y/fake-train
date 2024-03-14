@@ -36,6 +36,8 @@ import {
 	removeDuplicateLetters,
 	maxDepthBack,
 	maxDepthDp,
+	invertTreeBack,
+	invertTreeDp,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -92,6 +94,8 @@ maxSlidingWindow()
 removeDuplicateLetters()
 maxDepthBack()
 maxDepthDp()
+invertTreeBack()
+invertTreeDp()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
