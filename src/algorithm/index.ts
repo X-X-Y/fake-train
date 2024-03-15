@@ -43,6 +43,9 @@ import {
 } from '@/algorithm/maximum-depth-of-binary-tree'
 import { invertTreeBack, invertTreeDp } from '@/algorithm/invert-binary-tree'
 import connect from '@/algorithm/populating-next-right-pointers-in-each-node/connect'
+import constructMaximumBinaryTree from '@/algorithm/maximum-binary-tree/construct-maximum-binary-tree'
+import buildTreePreIn from '@/algorithm/construct-binary-tree-from-preorder-and-inorder-traversal/build-tree-pre-in'
+import buildTreeInPost from '@/algorithm/construct-binary-tree-from-inorder-and-postorder-traversal/build-tree-In-Post'
 
 export {
 	compareStrIterator,
@@ -85,4 +88,7 @@ export {
 	invertTreeBack,
 	invertTreeDp,
 	connect,
+	constructMaximumBinaryTree,
+	buildTreePreIn,
+	buildTreeInPost,
 }

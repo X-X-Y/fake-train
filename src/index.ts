@@ -38,6 +38,9 @@ import {
 	maxDepthDp,
 	invertTreeBack,
 	invertTreeDp,
+	constructMaximumBinaryTree,
+	buildTreePreIn,
+	buildTreeInPost,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -96,6 +99,9 @@ maxDepthBack()
 maxDepthDp()
 invertTreeBack()
 invertTreeDp()
+constructMaximumBinaryTree()
+buildTreePreIn()
+buildTreeInPost()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
