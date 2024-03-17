@@ -46,6 +46,10 @@ import connect from '@/algorithm/populating-next-right-pointers-in-each-node/con
 import constructMaximumBinaryTree from '@/algorithm/maximum-binary-tree/construct-maximum-binary-tree'
 import buildTreePreIn from '@/algorithm/construct-binary-tree-from-preorder-and-inorder-traversal/build-tree-pre-in'
 import buildTreeInPost from '@/algorithm/construct-binary-tree-from-inorder-and-postorder-traversal/build-tree-In-Post'
+import {
+	serializePre,
+	serializePost,
+} from '@/algorithm/serialize-and-deserialize-binary-tree'
 
 export {
 	compareStrIterator,
@@ -91,4 +95,6 @@ export {
 	constructMaximumBinaryTree,
 	buildTreePreIn,
 	buildTreeInPost,
+	serializePre,
+	serializePost,
 }

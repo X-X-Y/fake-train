@@ -41,6 +41,8 @@ import {
 	constructMaximumBinaryTree,
 	buildTreePreIn,
 	buildTreeInPost,
+	serializePre,
+	serializePost,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -102,6 +104,8 @@ invertTreeDp()
 constructMaximumBinaryTree()
 buildTreePreIn()
 buildTreeInPost()
+serializePre()
+serializePost()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',
