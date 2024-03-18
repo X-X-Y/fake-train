@@ -43,6 +43,7 @@ import {
 	buildTreeInPost,
 	serializePre,
 	serializePost,
+	kthSmallest,
 } from '@/algorithm'
 import {
 	deepCopy,
@@ -106,6 +107,7 @@ buildTreePreIn()
 buildTreeInPost()
 serializePre()
 serializePost()
+kthSmallest()
 
 console.log(
 	'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scene ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',

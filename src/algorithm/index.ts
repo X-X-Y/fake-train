@@ -50,6 +50,7 @@ import {
 	serializePre,
 	serializePost,
 } from '@/algorithm/serialize-and-deserialize-binary-tree'
+import kthSmallest from '@/algorithm/kth-smallest-element-in-a-bst/kth-smallest'
 
 export {
 	compareStrIterator,
@@ -97,4 +98,5 @@ export {
 	buildTreeInPost,
 	serializePre,
 	serializePost,
+	kthSmallest,
 }
